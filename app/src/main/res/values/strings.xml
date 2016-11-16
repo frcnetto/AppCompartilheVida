@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Compartilhe Vida</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail...</string>
+    <string name="prompt_password">Senha...</string>
+    <string name="prompt_confirm_password">Confirmar senha...</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_sign_in_facebook">Entrar com o Facebook</string>
+    <string name="action_sign_up">Cadastrar</string>
+    <string name="error_invalid_email">Esse endereço de e-mail é inválido</string>
+    <string name="error_invalid_password">Parece que a senha é muito curta</string>
+    <string name="error_incorrect_password">A senha está incorreta</string>
+    <string name="error_field_required">Esse campo é obrigarório</string>
+    <string name="error_field_idade_menor_16">Você tem que ter no mínimo 16 anos</string>
+    <string name="error_field_peso_menor_50">Você tem que ter mais de 50Kg</string>
+    <string name="permission_rationale">"Permissões de contados são necessárias para auto-completar o e-mail."
+    </string>
+    <!-- Strings related to cad user -->
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="cesariana">Cesariana</string>
+    <string name="data_da_tatuagem">Data da tatuagem</string>
+    <string name="data_da_ultima_doacao">Data da última doação</string>
+    <string name="data">dia/mês/ano</string>
+    <string name="idade">Idade</string>
+    <string name="ja_doou_antes">Já doou antes?</string>
+    <string name="ja_esteve_gravida">Já esteve grávida?</string>
+    <string name="minha_primeira_doacao_foi_antes_dos_60_anos">Minha primeira doação foi antes dos 60 anos</string>
+    <string name="nome">Nome</string>
+    <string name="normal">Normal</string>
+    <string name="nao_estou_gravida">Não estou grávida</string>
+    <string name="nao_possuo_aids">Não possuo AIDS</string>
+    <string name="nao_possuo_diabetes">Não possuo Diabetes</string>
+    <string name="nao_possuo_doenca_de_chagas">Não possuo Doença de Chagas</string>
+    <string name="nao_possuo_htlv_i_ou_ii">Não possuo HTLV I ou II</string>
+    <string name="nao_possuo_hepatite_b_ou_c">Não possuo Hepatite B ou C</string>
+    <string name="nao_possuo_malaria">Não possuo Malária</string>
+    <string name="nao_possuo_sifilis">Não possuo Sífilis</string>
+    <string name="nao_uso_drogas_injetaveis">Não uso drogas injetáveis</string>
+    <string name="nao">Não</string>
+    <string name="peso">Peso</string>
+    <string name="sexo">Sexo</string>
+    <string name="sim">Sim</string>
+    <string name="tatuagem">Tatuagem?</string>
+    <string name="tipo_do_parto">Tipo do parto:</string>
+    <string name="tipo_sangu_neo">Tipo sanguíneo:</string>
+    <string name="compartilhe_vida">Compartilhe Vida</string>
+    <string-array name="tipos_sanguineos">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="estados">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+    <string name="title_activity_saiba_mais">SaibaMaisActivity</string>
+    <string name="title_activity_meus_dados">MeusDadosActivity</string>
+    <string name="data_do_parto">Data do parto</string>
+    <string name="title_activity_cadastro_manual">cadastro_manual</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="auth_failed">Falha no cadastro, tente novamente mais tarde</string>
+    <string name="login_failed_usuarionaoencontrado">Email ou senha incorretos</string>
+    <string name="login_success">Entrando...</string>
+    <string name="facebook_app_id">326359314404273</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_nome">Nome completo...</string>
+    <string name="title_activity_cadastro_campanha">CadastroCampanhaActivity</string>
+    <string name="nome_do_beneficiario">Nome do beneficiário</string>
+    <string name="cidade">Cidade</string>
+    <string name="title_activity_minhas_campanhas">MinhasCampanhasActivity</string>
+    <string name="estado">Estado</string>
+    <string name="tipo_sanguineo">Tipo sanguíneo</string>
+    <string name="some_date">Some date</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="alerta">Alerta!</string>
+    <string name="alerta_exclusao">A campanha será excluída definitivamente, deseja continuar?</string>
+    <string name="imglogo">imgLogo</string>
+    <string name="telefone">DDD + Telefone</string>
+    <string name="telefone2">Telefone</string>
+    <string name="doacao_amamentacao">A doação de sangue é permitida durante a amamentação?</string>
+    <string name="hipoglicemia">A hipoglicemia impede a doação?</string>
+    <string name="intervalo_entre_doacao">A reposição do volume de plasma ocorre em 24 horas e a dos glóbulos vermelhos em 4 semanas. Entretanto, para o organismo atingir o mesmo nível de estoque de ferro que apresentava antes da doação, são necessárias 8 semanas para homens e 12 semanas para mulheres. Esses são os intervalos mínimos entre doações de sangue.</string>
+    <string name="malaria_transfusional">Ainda não há um teste sensível para detecção de malária que possa ser aplicado rotineiramente em bancos de sangue. Por essa razão, excluímos temporariamente os indivíduos que estiveram em zona de malária com o objetivo de diminuir o risco de ocorrência de Malária transfusional.</string>
+    <string name="apto_2_semanas_apos_cura">Apto 2 semanas após a cura.</string>
+    <string name="historico_convulsao">Candidatos com histórico de convulsão no passado podem doar sangue 03 anos após suspensão do tratamento e sem relato de crise nesse período.</string>
+    <string name="cirurgia">Candidatos submetidos a cirurgia de grande porte devem ser recusados de 6 meses a 1 ano. Para cirurgias de pequeno e médio portes, a recusa é por 3 meses. Para cirurgia a laser, aguardar 1 semana após o procedimento, se o local não estiver inflamado. Para cirurgias odontológicas, extração ou manipulação dentária, o prazo é de 7 dias após o procedimento; com anestesia geral, 1 mês após o término de tratamento.</string>
+    <string name="armazenado_sangue">Como é armazenado o sangue? Em geladeira? Em que temperatura?</string>
+    <string name="menor_idade">De acordo com a legislação brasileira que regulamenta as normas técnicas a serem aplicadas em todos os bancos de sangue do país, o menor de idade poderá doar sangue a partir dos 16 anos. O menor deverá levar uma autorização dos responsáveis legais.</string>
+    <string name="piercing_tatuagem">Depois de quanto tempo as pessoas que fizeram piercing, tatuagem ou maquiagem definitiva podem doar sangue?</string>
+    <string name="volume_de_sangue">Devido ao volume de anticoagulante presente na bolsa, o que é padronizado para anticoagular no máximo esse volume de sangue.</string>
+    <string name="diabetico">Diabético que não pode doar sangue é aquele que chamamos de insulino-dependente; ou seja, aquele que nescessita de insulina para manter seu metabolismo de açúcar próximo da normalidade. Esses pacientes têm importantes alterações do sistema cardiovascular e, em consequência disto, durante ou logo após a doação de sangue, podem apresentar alguma reação que agrave seu estado de saúde.</string>
+    <string name="organismo_rempoe_o_sangue_doado">Em quanto tempo o organismo rempõe o sangue doado?</string>
+    <string name="hipertireoidismo">Hipo ou Hipertireoidismo impede a doação?</string>
+    <string name="menores_de_18_anos_podem_doar">Menores de 18 anos podem doar sangue?</string>
+    <string name="doenca_ou_infecao">Na realidade, o termo mais correto seria \"comportamento de risco\"; ou seja, o comportamento do indivíduo que o deixaria mais exposto ao risco de adquirir uma determinada doença ou infecção.</string>
+    <string name="atividade_sexual_apos_a_doacao">Não há qualquer contra-indicação para realização de atividade sexual após a doação de sangue ou de plaquetas.</string>
+    <string name="nao_caso_estejam_controlados_com_a_medicacao">Não, caso estejam controlados com a medicação.</string>
+    <string name="nao_desde_que_o_candidato_esteja_assintomatico_no_dia_da_doacao">Não, desde que o candidato esteja assintomático no dia da doação.</string>
+    <string name="amamentacao">Não. A mulher que está amamentando não pode doar sangue, a menos que o parto tenha ocorrido há mais de um ano.</string>
+    <string name="folga">O doador de sangue tem direito à folga no trabalho?</string>
+    <string name="intervalo_entre_doacoes">O intervalo mínimo entre uma doação de sangue e uma doação de plaquetas é de 56 dias; entre plaquetas e sangue, é de 72 horas. O número máximo de doação de plaquetas, por mês, é de 4 doações; e por ano, 24 doações.</string>
+    <string name="o_material_usado_na_coleta_de_sangue_mesmo_seguro">O material usado na coleta de sangue é mesmo seguro?</string>
+    <string name="o_volume_de_sangue_total_a_ser_coletado_e_diretamente_ligado_ao_peso_do_doador_para_homens_nao_pode_exceder_a_9ml_kg_peso_e_para_mulheres_8ml_kg_peso_o_anticoagulante_presente_na_bolsa_de_coleta_liga_se_ao_sangue_impedindo_que_este_coagule_o_volume_de_antigoagulante_da_bolsa_e_padronizado_para_um_minimo_de_400ml_de_sangue_logo_uma_pessoa_com_peso_inferior_a_50_kg_nao_pode_doar_o_volume_minimo">O volume de sangue total a ser coletado e diretamente ligado ao peso do doador. Para homens nao pode exceder a 9ml / Kg peso e, para mulheres, 8ml / Kg peso. O anticoagulante presente na bolsa de coleta liga-se ao sangue impedindo que este coagule. O volume de antigoagulante da bolsa e padronizado para um minimo de 400ml de sangue. Logo, uma pessoa com peso inferior a 50 Kg nao pode doar o volume minimo.</string>
+    <string name="os_exames_sorol_gicos_s_o_realizados_individualmente">Os exames sorológicos são realizados individualmente?</string>
+    <string name="os_gl_bulos_vermelhos_s_o_armazenados_em_geladeira_temperatura_entre_2_e_6_c_as_plaquetas_s_o_armazenadas_em_temperatura_ambiente_entre_20_e_24_c_o_plasma_armazenado_congelado_temperatura_de_18_c_negativos">Os glóbulos vermelhos são armazenados em geladeira, à temperatura entre 2 e 6ºC. As plaquetas são armazenadas em temperatura ambiente entre 20 e 24ºC. O plasma é armazenado congelado à temperatura de 18ºC negativos.</string>
+    <string name="pode_se_fazer_sexo_depois_da_doa_o_de_sangue">Pode-se fazer sexo depois da doação de sangue?</string>
+    <string name="por_que_com_menos_de_50_kg_n_o_podem_doar_sangue">Por que com menos de 50 Kg não podem doar sangue?</string>
+    <string name="por_que_diab_ticos_n_o_podem_doar_sangue">Por que diabéticos não podem doar sangue?</string>
+    <string name="por_que_n_o_podemos_aceitar_doadores_provenientes_de_rea_end_mica_para_mal_ria">Por que não podemos aceitar doadores provenientes de área endêmica para Malária?</string>
+    <string name="por_que_n_o_se_pode_consumir_alimentos_gordurosos_nas_quatro_horas_que_antecedem_doa_o">Por que não se pode consumir alimentos gordurosos nas quatro horas que antecedem à doação?</string>
+    <string name="por_que_o_limite_de_450ml_de_sangue_por_bolsa">Por que o limite de 450ml de sangue por bolsa?</string>
+    <string name="por_que_s_1_dia_de_abono_pela_doa_o_de_sangue">Por que só 1 dia de abono pela doação de sangue?</string>
+    <string name="por_que_s_pode_doar_sangue_quando_se_teve_hepatite_antes_dos_10_anos_de_idade">Por que só pode doar sangue quando se teve hepatite antes dos 10 anos de idade?</string>
+    <string name="porque_antes_dos_10_anos_de_idade_a_probabilidade_de_o_candidato_que_tenha_tido_hepatite_do_tipo_a_de_quase_100_este_fato_j_foi_confirmado_em_v_rios_estudos_epidemiol_gicos_como_a_hepatite_a_n_o_deixa_seq_elas_nem_part_culas_virais_remanescentes_ap_s_a_cura_n_o_h_contra_indica_o_em_doar_sangue_ap_s_esse_tipo_de_hepatite">Porque antes dos 10 anos de idade, a probabilidade de o candidato que tenha tido hepatite do tipo A é de quase 100%. Este fato já foi confirmado em vários estudos epidemiológicos. Como a hepatite A não deixa seqüelas nem partículas virais remanescentes após a cura, não há contra-indicação em doar sangue após esse tipo de hepatite.</string>
+    <string name="quais_as_vacinas_que_impedem_a_doa_o_quanto_tempo_depois_de_ter_tomado_a_vacina_a_pessoa_poder_doar_sangue">Quais as vacinas que impedem a doação? Quanto tempo depois de ter tomado a vacina a pessoa poderá doar sangue?</string>
+    <string name="qual_o_conceito_atual_de_quot_grupo_de_risco_quot">Qual o conceito atual de \"grupo de risco\"?</string>
+    <string name="qual_o_intervalo_ideal_para_a_doa_o_de_plaquetas">Qual o intervalo ideal para a doação de plaquetas?</string>
+    <string name="qual_o_per_odo_de_impedimento_para_doa_o_para_indiv_duos_que_residiram_ou_que_visitaram_uma_regi_o_end_mica_de_mal_ria">Qual o período de impedimento para doação para indivíduos que residiram ou que visitaram uma região endêmica de Malária?</string>
+    <string name="quando_crian_a_tive_desmaios_mas_estou_curado_a_por_que_n_o_posso_doar_sangue">Quando criança tive desmaios, mas estou curado(a). Por que não posso doar sangue?</string>
+    <string name="quanto_tempo_depois_das_cirurgias_pequeno_m_dio_e_grande_porte_a_pessoa_poder_doar_sangue">Quanto tempo depois das cirurgias (pequeno, médio e grande porte) a pessoa poderá doar sangue?</string>
+    <string name="se_a_pessoa_teve_rub_ola_depois_de_quanto_tempo_pode_voltar_a_doar">Se a pessoa teve rubéola, depois de quanto tempo pode voltar a doar?</string>
+    <string name="se_residiu_em_rea_end_mica_para_mal_ria_ou_se_ficou_pouco_tempo_aguardar_12_meses">Se residiu em área endêmica para malária ou se ficou pouco tempo, aguardar 12 meses.</string>
+    <string name="segundo_recomenda_es_da_organiza_o_mundial_de_sa_de_oms_o_sangue_recebido_de_uma_doa_o_deve_ter_no_m_nimo_10_de_gordura_quando_esse_limite_ultrapassado_torna_se_mais_dif_cil_identificar_doen_as_transmiss_veis_como_hepatites_b_e_c_aids_s_filis_e_chagas">Segundo recomendações da Organização Mundial de Saúde (OMS), o sangue recebido de uma doação deve ter no mínimo 10% de gordura. Quando esse limite é ultrapassado, torna-se mais difícil identificar doenças transmissíveis, como hepatites B e C, aids, sífilis e Chagas.</string>
+    <string name="sim_o_doador_tem_direito_a_um_01_dia_de_folga_no_trabalho_em_cada_12_meses_trabalhados_desde_que_a_doa_o_esteja_devidamente_comprovada_de_acordo_com_os_termos_previstos_no_decreto_lei_n_5_452_de_1_de_maio_de_1943_consolida_o_das_leis_do_trabalho_esse_direito_tamb_m_se_estende_ao_funcion_rio_p_blico_civil_de_autarquia_ou_militar_conforme_preconizam_a_lei_federal_n_1_075_de_27_de_mar_o_de_1950_bem_como_a_lei_estadual_n_3_365_de_6_de_junho_de_1956_mas_apesar_da_legisla_o_vigente_cumpre_ressaltar_que_a_doa_o_de_sangue_um_gesto_volunt_rio_e_altru_sta_e_portanto_n_o_deve_ser_encarada_como_um_benef_cio_pr_prio">Sim, o doador tem direito a um (01) dia de folga no trabalho em cada 12 meses trabalhados, desde que a doação esteja devidamente comprovada, de acordo com os termos previstos no Decreto-Lei nº 5.452, de 1º de maio de 1943 (Consolidação das Leis do Trabalho). Esse direito também se estende ao funcionário público civil de autarquia ou militar, conforme preconizam a Lei Federal nº 1.075, de 27 de março de 1950, bem como a Lei EStadual nº 3.365, de 6 de junho de 1956. Mas apesar da legislação vigente, cumpre ressaltar que a doação de sangue é um gesto voluntário e altruísta e, portanto, não deve ser encarada como um benefício próprio.</string>
+    <string name="sim_os_testes_sorol_gicos_s_o_realizados_individualmente_ou_seja_em_cada_amostra_isoladamente">Sim, os testes sorológicos são realizados individualmente; ou seja, em cada amostra isoladamente.</string>
+    <string name="sim_todo_o_material_usado_para_a_coleta_de_sangue_individual_descart_vel_est_ril_e_apirog_nico_n_o_causa_febre_n_o_h_nenhum_risco_de_o_doador_adquirir_uma_doen_a_infecciosa_com_a_doa_o_de_sangue">Sim, todo o material usado para a coleta de sangue é individual, descartável, estéril e apirogênico (não causa febre). Não há nenhum risco de o doador adquirir uma doença infecciosa com a doação de sangue.</string>
+    <string name="tatuagem_e_maquiagem_definitiva_ap_s_1_ano_do_procedimento_piercing_se_feito_em_local_sem_condi_es_de_avaliar_a_antissepsia_aguardar_12_meses_ap_s_realiza_o_com_material_descart_vel_e_feito_em_local_apropriado_aguardar_6_meses_ap_s_realiza_o_se_feito_na_mucosa_oral_ou_genital_inapto_enquanto_estiver_com_o_piercing_e_apto_ap_s_12_meses_da_retirada">Tatuagem e maquiagem definitiva: após 1 ano do procedimento. Piercing: se feito em local sem condições de avaliar a antissepsia: aguardar 12 meses após realização; com material descartável e feito em local apropriado: aguardar 6 meses após realização; se feito na mucosa oral ou genital: inapto enquanto estiver com o piercing e apto após 12 meses da retirada.</string>
+    <string name="vacinas_compostas_de_v_rus_ou_bact_rias_vivos_e_atenuados_ex_sarampo_poliomielite_oral_febre_amarela_necessitam_de_3_a_4_semanas_de_intervalo_para_a_doa_o_j_as_vacinas_compostas_de_v_rus_ou_bact_rias_mortas_tox_ides_ou_recombinantes_ex_t_tano_poliomielite_salk_etc_exigem_um_per_odo_m_nimo_de_48_horas_para_doa_o_de_sangue_desde_que_o_candidato_n_o_apresente_qualquer_rea_o_decorrente_da_vacina_o_vacina_o_anti_r_bica_ap_s_exposi_o_animal_exige_per_odo_m_nimo_de_01_ano_para_a_doa_o_de_sangue">Vacinas compostas de vírus ou bactérias vivos e atenuados (ex.: sarampo, poliomielite oral, febre amarela) necessitam de 3 a 4 semanas de intervalo para a doação. Já as vacinas compostas de vírus ou bactérias mortas, toxóides ou recombinantes (ex.: tétano, poliomielite salk etc) exigem um período mínimo de 48 horas para doação de sangue desde que o candidato não apresente qualquer reação decorrente da vacinação. Vacinação anti-rábica após exposição animal exige período mínimo de 01 ano para a doação de sangue.</string>
+    <string name="o_que_estabelecem_a_clt_e_a_clf">É o que estabelecem a CLT e a CLF.</string>
+</resources>

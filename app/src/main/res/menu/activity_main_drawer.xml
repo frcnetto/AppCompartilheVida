@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_inicio"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_minhas_campanhas"
+            android:icon="@drawable/ic_menu_minhas_campanhas"
+            android:title="Minhas campanhas" />
+        <item
+            android:id="@+id/nav_meus_dados"
+            android:icon="@drawable/ic_menu_meus_dados"
+            android:title="Meus dados" />
+        <item
+            android:id="@+id/nav_saiba_mais"
+            android:icon="@drawable/ic_menu_saiba_mais"
+            android:title="Saiba mais" />
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/com_facebook_button_icon"
+            android:title="Conectar ao Facebook" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Sair
+            " />
+    </group>
+</menu>

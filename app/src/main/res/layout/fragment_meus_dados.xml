@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_meus_dados"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.frcnetto.compartilhevida.activity.MeusDadosActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:fitsSystemWindows="true"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:stretchColumns="0"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.frcnetto.compartilhevida.activity.MainActivity">
+
+
+            <EditText
+                android:id="@+id/EdTxNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome"
+                android:inputType="textCapWords"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/EdTxIdade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/idade"
+                    android:maxLength="2"
+                    android:inputType="number"
+                    android:layout_below="@+id/EdTxNome"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sexo"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:drawableBottom="@android:color/transparent"
+                    android:id="@+id/textViewSexo"/>
+
+                <RadioGroup
+                    android:id="@+id/RdGrSexo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/masculino"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:checked="true"
+                        android:id="@+id/RdBtSexoMasculino" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feminino"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtSexoFeminino" />
+                </RadioGroup>
+            </TableRow>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_estou_gravida"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxNaoEstouGravida"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ja_esteve_gravida"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:layout_below="@+id/CkBxNaoEstouGravida"
+                    android:id="@+id/textViewGravida"/>
+
+                <TextView />
+
+                <RadioGroup
+                    android:id="@+id/RdGrGravida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignLeft="@+id/RdGrSexo"
+                    android:checkedButton="@+id/RdBtGravidaNao">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sim"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtGravidaSim" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nao"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtGravidaNao" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tipo_do_parto"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewParto"/>
+
+                <TextView />
+
+                <RadioGroup
+                    android:id="@+id/RdGrParto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:checkedButton="@+id/RdBtPartoNormal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/normal"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtPartoNormal" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cesariana"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtPartoCesariana" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data_do_parto"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewPartoNormalCesaria"/>
+                <TextView />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:textColor="@color/textEnabled"
+                    android:id="@+id/textViewDtParto"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tipo_sangu_neo"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewTipoSanguineo"
+                    android:layout_below="@+id/textViewParto"/>
+
+                <TextView />
+
+                <Spinner
+                    android:id="@+id/SpTipoSanguineo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ja_doou_antes"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewJaDoou"
+                    android:layout_below="@+id/textViewTipoSanguineo"/>
+
+                <TextView />
+
+                <RadioGroup
+                    android:id="@+id/RdGrDoador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/textViewTipoSanguineo"
+                    android:layout_alignLeft="@id/SpTipoSanguineo">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sim"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtDoadorSim" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nao"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:checked="true"
+                        android:id="@+id/RdBtDoadorNao" />
+                </RadioGroup>
+            </TableRow>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minha_primeira_doacao_foi_antes_dos_60_anos"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxPrimeiraDoacao"
+                android:layout_below="@+id/textViewJaDoou"/>
+            <TableRow
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data_da_ultima_doacao"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewUltimaDoacao"
+                    android:layout_below="@+id/CkBxPrimeiraDoacao"/>
+                <TextView />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:textColor="@color/textEnabled"
+                    android:id="@+id/textViewDtUltimaDoacao"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <EditText
+                    android:id="@+id/EdTxPeso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/peso"
+                    android:inputType="numberDecimal"
+                    android:layout_below="@+id/DtPkDataDoacao"
+                    android:maxLength="4"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tatuagem"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:id="@+id/textViewTatuagem"/>
+                <TextView />
+                <RadioGroup
+                    android:id="@+id/RdGrTatuagem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/DtPkDataDoacao"
+                    android:layout_alignTop="@id/textViewTatuagem"
+                    android:layout_alignLeft="@id/RdGrDoador">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sim"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:id="@+id/RdBtTatuagemSim" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nao"
+                        android:textSize="@dimen/text_view_size_small"
+                        android:checked="true"
+                        android:id="@+id/RdBtTatuagemNao" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/fab_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data_da_tatuagem"
+                    android:textSize="@dimen/text_view_size_small"/>
+                <TextView />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data"
+                    android:textSize="@dimen/text_view_size_small"
+                    android:textColor="@color/textEnabled"
+                    android:id="@+id/textViewDtTatuagem"/>
+            </TableRow>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_diabetes"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxDiabetes"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_hepatite_b_ou_c"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxHepatite"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_aids"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxAIDS"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_sifilis"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxSifilis"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_htlv_i_ou_ii"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxHTLV"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_doenca_de_chagas"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxChagas"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_possuo_malaria"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxMalaria"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nao_uso_drogas_injetaveis"
+                android:textSize="@dimen/text_view_size_small"
+                android:id="@+id/CkBxDrogas"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+        </TableLayout>
+    </ScrollView>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_cad_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add"/>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
